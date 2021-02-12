@@ -32,7 +32,7 @@ public class TestHTTPService {
 
 	@GetMapping("config-value")
 	public String configFromValue() {
-		return "properties1: " + properties1 + "\n";
+		return "new properties1: " + config.getProperties1() + "\n";
 	}
 
 	@GetMapping("secret")

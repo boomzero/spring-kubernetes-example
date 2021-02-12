@@ -1,11 +1,11 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: rbac-default-namespace
+  name: rbac-phongvq-namespace
 subjects:
   - kind: ServiceAccount
     name: default
-    namespace: default
+    namespace: phongvq
 roleRef:
   kind: ClusterRole
   name: cluster-admin

@@ -4,7 +4,7 @@ metadata:
   name: spring-kubernetes-example
 data:
   application.properties: |-
-    myconfig.properties1=Config 1 Updated
+    myconfig.properties1=Config 1 Updated -- version 6
     myconfig.properties2=Config 2
     myconfig.subconfig1.properties1=Sub config 1 property 1
     myconfig.subconfig1.properties2=Sub config 1 property 2

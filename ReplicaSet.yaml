@@ -18,9 +18,10 @@ spec:
         app: spring-kubernetes-example
         tier: backend
     spec:
+      serviceAccountName: default
       containers:
       - name: spring-kubernetes-example
-        image: ard333.com/spring-kubernetes-example:0.0.1
+        image: docker.io/boomzero/spring-conf:1.0.3
         ports:
         - containerPort: 8080
         env:
